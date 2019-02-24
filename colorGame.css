@@ -1,0 +1,101 @@
+/*Color Games CSS*/
+
+
+/*General Styles*/
+
+body {
+	
+	margin: 0;
+	padding:0;
+	background-color: #232323;
+	font-family: "Montserrat" , "Avenir" ;
+}
+
+h1{
+	
+	color:white;
+	text-align: center;
+	line-height: 1.1;
+	padding: 20px 0;
+	background-color: steelblue;
+	margin:0;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#colorDisplay{
+	
+	font-size:200%;
+}
+
+#message{
+	
+	display: inline-block;
+	width:20%;
+	
+}
+
+#container {
+	
+	width:600px;
+	margin: 0 auto;
+	padding: 20px 0 0;
+	
+}
+
+
+.squares {
+	
+	width: 180px;
+	height:190px;
+	
+	background-color: purple;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	
+	border-radius: 40px;
+	transition: background 1s;
+	-webkit-transition: background 1s;
+	-moz-transition: background 1s;
+	
+}
+
+#stripe {
+	
+	
+	height: 30px;
+	
+	text-align: center;
+	
+	background-color: white;
+	
+}
+
+.selected {
+	
+	background-color: steelblue;
+	color:white;
+}
+
+button {
+	outline: none;
+	border:none;
+	background-color: inherit;
+	text-transform: uppercase;
+	height:100%;
+	font-weight:700;
+	color: steelblue;
+	letter-spacing: 1px;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+}
+
+button:hover{
+	
+	color:white;
+	background-color: steelblue;
+	
+}
+
