@@ -23,7 +23,7 @@ var resetButton = document.getElementById("reset");
 var modeButtons = document.querySelectorAll(".mode");
 
 
-init();
+init(); // calling for setting up enviroment
 
 
 
@@ -156,6 +156,8 @@ function generateRandomColors(num) { // num is 6
 	}
 	return arr;
 }
+
+//Generate RGB codes
 
 function randomColor() {
 
